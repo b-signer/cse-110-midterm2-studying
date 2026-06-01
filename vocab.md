@@ -4,31 +4,56 @@
 
 ## The -ilities (Quality Attributes)
 
-★ = one of the 8 key -ilities
+★ = ISO 25010 key -ility (the 8 we especially need to know)
 
 | Term | Definition |
 |------|-----------|
 | **-ility** | Any non-functional quality attribute that describes *how* a system behaves, not *what* it does |
-| **Reliability** ★ | System produces correct results consistently over time |
-| **Maintainability** ★ | How easily the system can be changed, debugged, or extended |
+| **Functional Suitability** ★ | The system provides functions that meet stated and implied needs |
+| **Performance Efficiency** ★ | Resource usage, throughput, and response time under load |
+| **Compatibility** ★ | Works correctly across different browsers, devices, OS, or environments |
 | **Usability** ★ | How effectively and intuitively users can interact with the system |
-| **Performance / Efficiency** ★ | Resource usage, throughput, and response time under load |
-| **Portability** ★ | Ability to operate across different environments or platforms |
-| **Testability** ★ | How readily behavior can be verified through tests |
-| **Scalability** ★ | Ability to handle growing load without degradation |
+| **Reliability** ★ | System produces correct results consistently over time |
 | **Security** ★ | Resistance to unauthorized access, manipulation, or data disclosure |
+| **Maintainability** ★ | How easily the system can be changed, debugged, or extended |
+| **Portability** ★ | Ability to operate across different environments or platforms |
 | **Availability** | Ability to access the system and its functions when needed |
 | **Robustness** | Ability to handle errors, edge cases, and adverse conditions gracefully |
 | **Accessibility** | Ability to use the system's functions regardless of ability or disability |
 | **Satisfiability** | Ability to enjoy or feel satisfied by the system's functions |
 | **Utility** | The system provides the required functions at all |
+| **Testability** | How readily behavior can be verified through tests |
+| **Scalability** | Ability to handle growing load without degradation |
 | **Modifiability** | Ease of making targeted changes without unintended side effects |
 | **Interoperability** | Ability to work with other systems |
 | **Flexibility** | Ability to adapt to changing requirements |
 | **Reusability** | Degree to which components can be used in other contexts |
-| **Compatibility** | Works correctly across different browsers, devices, OS, or environments |
 | **Durability** | Ability to persist and function correctly over long periods |
 | **Installability** | Ease of installing and configuring the system |
+
+### Remembering the 8 Key -ilities
+
+**Sentence (ISO 25010 order):** *"For Perfect Code, Users Rely on Solid Maintained Platforms."*
+
+| Word | -ility |
+|------|--------|
+| **F**or | Functional Suitability |
+| **P**erfect | Performance Efficiency |
+| **C**ode | Compatibility |
+| **U**sers | Usability |
+| **R**ely | Reliability |
+| **S**olid | Security |
+| **M**aintained | Maintainability |
+| **P**latforms | Portability |
+
+**Conceptual grouping (4 + 4):**
+
+| User Experience (FURSec) | Technical Quality (PerCMaP) |
+|------------------------|--------------------------|
+| **F**unctional Suitability — does it do what I need? | **Per**formance Efficiency — is it fast/efficient? |
+| **U**sability — is it easy to use? | **C**ompatibility — does it run on my device/browser? |
+| **R**eliability — does it stay working? | **Ma**intainability — can devs change it? |
+| **Sec**urity — is my data safe? | **P**ortability — can it move to a new environment? |
 
 ---
 
