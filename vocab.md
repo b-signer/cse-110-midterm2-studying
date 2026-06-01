@@ -33,18 +33,7 @@
 
 ### Remembering the 8 Key -ilities
 
-**Sentence (ISO 25010 order):** *"For Perfect Code, Users Rely on Solid Maintained Platforms."*
-
-| Word | -ility |
-|------|--------|
-| **F**or | Functional Suitability |
-| **P**erfect | Performance Efficiency |
-| **C**ode | Compatibility |
-| **U**sers | Usability |
-| **R**ely | Reliability |
-| **S**olid | Security |
-| **M**aintained | Maintainability |
-| **P**latforms | Portability |
+**Sentence (ISO 25010 order):** *"For Perfect Code, Users Rely on Solid Maintained Platforms."
 
 **Conceptual grouping (4 + 4):**
 
