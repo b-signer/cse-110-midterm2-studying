@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "WebFetch(domain:tpowell.craft.me)",
-      "WebFetch(domain:houses-pay-526.craft.me)"
-    ]
-  }
-}
